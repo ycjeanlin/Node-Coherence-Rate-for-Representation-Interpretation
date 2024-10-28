@@ -1,0 +1,6 @@
+{
+    "dataset": "CiteSeer",
+    "data_suffix": "baseline",
+    "graph_type": "homo",
+    "model": "random"
+}

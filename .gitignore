@@ -1,0 +1,13 @@
+logs/
+*.yml
+data/*
+*__pycache__*
+exp_lib/*/__pycache__/
+exp_lib/__pycache__/
+data/
+*.png
+log/
+*.pdf
+test.sh
+notebooks/test.ipynb
+*.csv

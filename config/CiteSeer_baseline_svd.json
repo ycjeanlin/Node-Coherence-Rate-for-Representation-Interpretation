@@ -1,0 +1,8 @@
+{
+    "dataset": "CiteSeer",
+    "data_suffix": "baseline",
+    "graph_type": "homo",
+    "test_size": 0.4,
+    "val_size": 0.0,
+    "model": "svd"
+}

@@ -1,0 +1,47 @@
+{
+    "dataset": "Cora",
+    "data_suffix": "baseline",
+    "model": "gat",
+    "graph_type": "homo",
+    "nc":{
+        "encoder":{
+            "epoch": 500,
+            "learning_rate": 1e-2,
+            "l2": 0,
+            "batch_size": -1,
+            "embed_dim": 512,
+            "num_layer": 1,
+            "num_head": 1,
+            "dropout": 0.1
+        },
+        "decoder":{
+            "epoch": 200,
+            "learning_rate": 1e-2,
+            "l2": 0,
+            "batch_size": -1,
+            "dropout": 0.0
+        }
+    },
+    "link":{
+        "encoder":{
+            "epoch": 300,
+            "learning_rate": 5e-4,
+            "l2": 1e-4,
+            "batch_size": -1,
+            "embed_dim": 128,
+            "num_layer": 1,
+            "num_head": 1,
+            "dropout": 0.3
+        }
+    },
+    "param_dict":{
+        "epoch": [200, 300, 400, 500],
+        "learning_rate": [1e-2, 5e-3, 1e-3, 5e-4, 1e-4],
+        "l2": [1e-2, 5e-3, 1e-3, 5e-4, 1e-4, 5e-5, 1e-5, 0],
+        "embed_dim": [64, 128, 256, 512],
+        "dropout": [0.0, 0.1, 0.3, 0.6],
+        "num_layer": [1, 2],
+        "num_head": [1, 2, 4],
+        "batch_size": [-1]
+    }
+}

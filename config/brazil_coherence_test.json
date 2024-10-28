@@ -1,0 +1,55 @@
+{
+    "dataset": "brazil",
+    "data_suffix": "baseline",
+    "graph_type": "homo",
+    "topk": 3,
+    "num_intruders": 1,
+    "num_buckets": 8,
+    "similarity_threshold": 0.8,
+    "intrusion_decision_quantile": 0.90,
+    "num_workers": 8,
+    "num_processes": 8,
+    "num_hops": {
+        "degree_dist": {
+            "usa": 1 
+        },
+        "common_neighbor": {
+            "usa": 1
+        }
+    },
+    "nc": {
+        "train_size": 0.6,
+        "baseline": {
+            "random": ["baseline"],
+            "gcn": ["baseline"],
+            "gat": ["baseline"],
+            "dgcn": ["baseline"],
+            "fastrp": ["baseline"],
+            "node2vec": ["baseline"]
+        }
+    },
+    "link": {
+        "test_size": 0.4,
+        "val_size": 0.0,
+        "baseline": {
+            "random": ["baseline"],
+            "gcn": ["baseline"],
+            "gat": ["baseline"],
+            "dgcn": ["baseline"],
+            "fastrp": ["baseline"],
+            "node2vec": ["baseline"]
+        }
+    },
+    "exp": {
+        "train_size": 0.6
+    },
+    "semantic_relation": {
+        "baseline": [
+            "has_link",
+            "g_dist",
+            "pagerank",
+            "label_dist",
+            "degree_dist"
+        ]
+    }
+}
