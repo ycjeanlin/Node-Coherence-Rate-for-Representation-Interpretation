@@ -1,5 +1,5 @@
 # Introduction 
-This repository is based on the paper "Rethinking Node Representation Interpretation through Relation Coherence." The paper slide can be found in this [link](https://purdue0-my.sharepoint.com/:p:/r/personal/lin915_purdue_edu/Documents/stanford_graph_workshop.pptx?d=w23ad5a6fee0b4e5faee18d58685ea71c&csf=1&web=1&e=j3cUiC)
+This repository is based on the paper "Rethinking Node Representation Interpretation through Relation Coherence." The paper can be found in this [link](https://purdue0-my.sharepoint.com/:b:/g/personal/lin915_purdue_edu/EeYQpgEhE11Dno8ht6fX0gMBhSsFL-OjY5Am63wy-0rR4Q?e=4i7AGM).
 
 
 # Node Representation Interpretation
